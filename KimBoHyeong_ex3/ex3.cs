@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ex6_3
+namespace ex3
 {
     class MainApp
     {
@@ -18,7 +18,7 @@ namespace Ex6_3
             double y = 3.1;
             double resultB = 0;
 
-            Plus(x, y, out resultB); // 오버로드가 필요한 메소드입니다.
+            Plus(x, y, out resultB); 
 
             Console.WriteLine("{0} + {1} = {2}", x, y, resultB);
         }
